@@ -21,13 +21,19 @@ and extract the rar file to any location. Run "Executable Creator.exe" and follo
 
 If you download and use the project :
 
+- Step 1
+
 ```sh
 npm install
 ```
  
+ - Step 2
+ 
  ```sh
  npm install -g pkg
  ```
+ 
+ - Step 3
  
  ```sh
  npm start
