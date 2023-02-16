@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainpage.css">
+    <title>Create Executable</title>
+</head>
+<body>
+    <div><input type="text" id="js-path" placeholder="JavaScript File Path"></div>
+    <div>
+        <select name="node-version" id="node-version">
+            <option value="node10-"> Node JS 10</option>
+            <option value="node12-"> Node JS 12</option>
+            <option value="node14-"> Node JS 14</option>
+            <option value="node16-"> Node JS 16</option>
+        </select>
+    </div>
+    <div>
+        <select name="os-version" id="os-type">
+            <option value="win-x64"> Windows x64</option>
+            <option value="macos-x64"> Mac OS x64</option>
+            <option value="linux-x64"> Linux x64</option>
+        </select>
+    </div>
+    <div class="file-type">
+        <select name="" id="file-type">
+            <option value="normal-file">Normal executable size</option>
+            <option value="small-file">Small executable size</option>
+        </select>
+    </div>
+    <button onclick="create()">Create Executable</button>
+    <script src="mainpage.js"></script>
+</body>
+</html>
