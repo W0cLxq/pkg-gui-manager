@@ -1,0 +1,17 @@
+{
+  "name": "pkg-gui-manager",
+  "version": "1.0.0",
+  "description": "Package your node apps.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build32": "electron-packager . ExecutableCreator --targets=win32 --arch=ia32 --icon=assets/package.ico",
+    "build64": "electron-packager . ExecutableCreator --targets=win32 --arch=x64 --icon=assets/package.ico"
+  },
+  "author": "Monoster",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.0.0",
+    "electron-packager": "^17.1.1"
+  }
+}
